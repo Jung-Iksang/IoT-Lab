@@ -315,6 +315,7 @@ main { flex: 1; }
 .people { max-width: var(--container); margin: 0 auto; padding: 80px var(--pad-x) 100px; }
 .pi { display: grid; grid-template-columns: 300px 1fr; gap: 56px; padding-bottom: 64px; border-bottom: 1px solid var(--border); align-items: start; }
 .pi__portrait { aspect-ratio: 3/4; }
+img.pi__portrait { width: 100%; object-fit: cover; object-position: center top; border: 1px solid var(--border); border-radius: 14px; display: block; }
 .pi__label { font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.16em; color: var(--accent); }
 .pi__name { margin-top: 14px; font-size: 34px; font-weight: 800; letter-spacing: -0.02em; }
 .pi__name .en { font-size: 18px; font-weight: 600; color: var(--muted); }
@@ -334,6 +335,7 @@ main { flex: 1; }
   background-image: repeating-linear-gradient(45deg, #F1F4F9 0, #F1F4F9 9px, #FAFBFC 9px, #FAFBFC 18px);
   display: flex; align-items: center; justify-content: center; }
 .member__initial { font-family: var(--font-mono); font-size: 24px; font-weight: 700; color: #C5CDDA; }
+.member__photo { width: 100%; height: 100%; object-fit: cover; border-radius: 12px; display: block; }
 .member__name { margin-top: 14px; font-size: 16px; font-weight: 700; }
 .member__nameen { font-family: var(--font-mono); font-size: 11px; color: var(--faint); margin-top: 2px; }
 .member__focus { margin-top: 8px; font-size: 13px; color: var(--accent); font-weight: 500; }
